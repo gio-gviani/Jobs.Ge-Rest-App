@@ -1,0 +1,29 @@
+{
+  "name": "jobs.ge-rest-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "strart": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gio-gviani/Jobs.Ge-Rest-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gio-gviani/Jobs.Ge-Rest-App/issues"
+  },
+  "homepage": "https://github.com/gio-gviani/Jobs.Ge-Rest-App#readme",
+  "description": "",
+  "dependencies": {
+    "domparser": "^0.1.1",
+    "jsdom": "^26.1.0",
+    "mongoose": "^8.16.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.10",
+    "xmldom": "^0.6.0"
+  }
+}
